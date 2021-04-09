@@ -63,3 +63,31 @@ header .header-title-container p {
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
+
+header .header-title-container .header-button {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 27rem;
+    display: block;
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    background-color: var(--off-white);
+    /* SOMBRAS */
+    box-shadow: 0rem 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+header .header-title-container .header-button span {
+    display: inline-block;
+    width: 1.3rem;
+    height: 0.8rem;
+    margin-left: 1rem;
+    background-image: url('../assets/icons/down-arrow.svg');
+}
