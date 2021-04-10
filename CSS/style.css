@@ -155,7 +155,6 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    text-align: left;
 }
 
 .currency-table--container {
@@ -222,4 +221,84 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.currency-table--date {
+    width: 19rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: var(--soft-orange);
+    border-radius: 0.8rem;
+}
+
+.currency-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+
+.main-commission-table {
+    width: 70%;
+    min-width: 23rem;
+    max-width: 30rem;
+    height: 38rem;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.main-commission-table .commission-table--title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: var(--secondary-blue);
+}
+
+.main-commission-table .commission-table {
+    width: 100%;
+    min-width: 23rem;
+    max-width: 30rem;
+    height: 29rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.main-commission-table .commission-table .commission-table-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    border: 1px solid var(--off-white);
+}
+
+.main-commission-table .commission-table .coin-value {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: var(--warm-black);
+}
+
+.main-commission-table .commission-table--date {
+    width: 19rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: var(--soft-blue);
+    border-radius: 0.8rem;
+}
+
+.main-commission-table .commission-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
