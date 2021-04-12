@@ -451,10 +451,10 @@ main {
     color: #757575;
 }
 
-/* .plans-container--slider {
+.plans-container--slider {
     display: flex;
     justify-content: space-around;
-} */
+}
 
 .plans-container--card {
     position: relative;
@@ -467,7 +467,7 @@ main {
     background-color: #fff;
     border-radius: 1.5rem;
     box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
-    /* margin-right: 1rem; */
+    margin-right: 1rem;
 }
 
 .recomended {
