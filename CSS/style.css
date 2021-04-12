@@ -409,6 +409,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .bitcoin-img-container h2 {
@@ -472,10 +473,10 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 23rem;
+    min-width: 19rem;
     max-width: 30rem;
     height: 25rem;
-    margin: 5rem 1rem 0;
+    margin: 5rem 0.5rem 0;
     padding: 0 1.5rem;
     background-color: #fff;
     border-radius: 1.5rem;
